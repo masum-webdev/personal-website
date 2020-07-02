@@ -2,6 +2,10 @@ body{
   font-family: 'Poppins', sans-serif;
   margin: 0px;
   }
+  .top-area{
+    background-image: url("images/header-bg.png");
+    
+  }
  .half-width{
    width: 40%;
    float: left;
@@ -38,13 +42,70 @@ span{
    text-decoration: none;
    font-weight: 700;
  }
- .top-area{
-   background-image: url("images/header-bg.png");
-   
- }
+ 
  .bio-area{
    background-image: url("images/biography-bg.png");
  }
+ .skill-area{
+    height: 300px;
+    background-image: url("images/latest-work-bg.png");
+    
+}
+.skill-area h1{
+  text-align: center;
+}
+.skill-area-manage{
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.skill-topic{
+  width: 20%;
+  float: left;
+  padding-left: 2%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+.single-skill{
+  box-shadow: 10px 10px 45px gray;
+  height: 40%;
+  border-radius: 5px;
+}
+#html{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,tomato,white);
+  border-image-slice: 1;
+}
+
+#css{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,blue,white);
+  border-image-slice: 1;
+}
+
+#js{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,blueviolet,white);
+  border-image-slice: 1;
+}
+
+#mdb{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,yellow,white);
+  border-image-slice: 1;
+}
+
+#njs{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,red,white);
+  border-image-slice: 1;
+  color: ;
+}
+#react{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,cyan,white);
+  border-image-slice: 1;
+}
  .work-area h1{
    text-align: center;
  }
