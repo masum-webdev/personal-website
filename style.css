@@ -49,7 +49,7 @@ span{
    text-align: center;
  }
  section{
-   height: 900px;
+   height: 800px;
    padding-bottom: 150px;
    
  }
@@ -65,6 +65,7 @@ span{
 }
 .work-area{
   height: 450px;
+  background-image: url("images/latest-work-bg.png");
 }
 .client-area{
   text-align: center;
@@ -92,6 +93,9 @@ span{
   text-decoration: none;
   color: white;
   font-size: 25px;
+}
+footer{
+  background-image: url("images/footer-bg.png");
 }
 footer p{
   text-align: center;
